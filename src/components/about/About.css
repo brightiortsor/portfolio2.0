@@ -73,6 +73,11 @@
     text-align: justify;
 }
 
+.about-content a {
+    color: var(--color-light);
+    font-weight: 600;
+    font-size: 18px;
+}
 
 /* Md */
 @media screen and (max-width: 1024px) {
@@ -82,8 +87,8 @@
     }
 
     .about-me {
-        width: 50%;
-        margin: 1rem auto 2rem;
+        width: 60%;
+        margin: 0.1rem auto 1.5rem;
     }
 
     .about-content p {
@@ -91,7 +96,7 @@
     }
 
     .about-me-img {
-        width: 100%;
+        width: 60%;
     }
 }
 
@@ -112,5 +117,9 @@
 
     .about-content p {
         margin: 1.5rem 0;
+    }
+
+    .about-me-img {
+        width: 100%;
     }
 }

@@ -1,6 +1,6 @@
 import Header from "./components/header/Header.jsx";
 import About from "./components/about/About.jsx";
-import Navbar from "./components/navbar/Navbar.jsx";
+// import Navbar from "./components/navbar/Navbar.jsx";
 // import Projects from "./components/projects/Projects.jsx";
 // import Services from "./components/services/Services.jsx";
 // import Testimonial from "./components/testimonials/Testimonial.jsx";

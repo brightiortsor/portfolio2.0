@@ -35,7 +35,7 @@ const About = () => {
             myself as a developer, and I am excited to bring my skills and
             experience to a new team.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary about-btn">
             Let's Talk?
           </a>
         </div>
