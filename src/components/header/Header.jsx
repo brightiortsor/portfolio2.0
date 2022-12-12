@@ -5,9 +5,9 @@ import Socials from "./Socials";
 
 const Header = () => {
   return (
-    <header id="home">
+    <header>
       <div className="container header-container">
-        <h5>Hi, I'm</h5>
+        <h5>Hello, I'm</h5>
         <h1>Bright Iortsor</h1>
         <div className="text-light">Frontend Engineer</div>
         <CTA />
@@ -16,7 +16,7 @@ const Header = () => {
           <img src={ME} alt="Bright" />
         </div>
         <a href="#contact" className="scroll-down">
-          -- Scroll Down --
+          Scroll Down
         </a>
       </div>
     </header>

@@ -27,7 +27,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    bottom: 4rem;
+    bottom: 2rem;
 }
 
 .header-socials::after {
@@ -41,32 +41,35 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     position: absolute;
     width: 22rem;
-    height: 22rem;
+    height: 30rem;
     left: calc(50% - 11rem);
     margin-top: 2.5rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 2.5rem 1rem 0rem 1rem;
+    padding: 5rem 1.5rem 1.5rem;
 }
 
 .scroll-down {
     position: absolute;
-    right: -2.5rem;
-    bottom: 9rem;
+    right: -2.3rem;
+    bottom: 6rem;
     transform: rotate(90deg);
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 0.9rem;
     letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        height: 18rem;
+/* landscape */
+@media screen and (max-width: 960px) and (min-width : 641px) {
+    header {
+        height: 100vh;
     }
+
 }
 
-@media screen and (max-width: 600px) {
-    .header {
+/* tab */
+@media screen and (max-width: 640px) and (min-width : 481px) {
+    header {
         height: 100vh;
     }
 
@@ -75,16 +78,17 @@ header {
         display: none;
     }
 
-    .me {
-        background: linear-gradient(var(--color-primary), transparent);
-        position: absolute;
-        width: 18rem;
-        height: 18rem;
-        left: calc(50% - 9rem);
-        margin-top: 2.5rem;
-        border-radius: 12rem 12rem 0 0;
-        overflow: hidden;
-        padding: 2.5rem 1rem 0rem 1rem;
+}
+
+/* mobile */
+@media screen and (max-width: 480px) and (min-width : 320px) {
+    header {
+        height: 80vh;
+    }
+
+    .header-socials,
+    .scroll-down {
+        display: none;
     }
 
 }
