@@ -19,7 +19,7 @@ const Experience = () => {
       <div className="container experience-container">
         <div className="experience-content">
           <article className="experience-details">
-            <FaReact className="skill-icon" />
+            <FaReact size={25} style={{ color: "#5aa3c5" }} className="last" />
             <h4>React</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -28,7 +28,11 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <RiVuejsFill className="skill-icon" />
+            <RiVuejsFill
+              size={25}
+              style={{ color: "#38b871" }}
+              className="last"
+            />
             <h4>Vue</h4>
             <div className="verified-icon">
               <small className="text-light">Intermediate</small>
@@ -37,7 +41,11 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <TbBrandJavascript className="skill-icon" />
+            <TbBrandJavascript
+              size={25}
+              style={{ color: "#cfba3f" }}
+              className="last"
+            />
             <h4>Javascript</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -46,7 +54,7 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <DiCss3 className="skill-icon" />
+            <DiCss3 size={25} style={{ color: "#0f3cce" }} className="last" />
             <h4>CSS</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -55,7 +63,11 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <AiOutlineHtml5 className="skill-icon" />
+            <AiOutlineHtml5
+              size={25}
+              style={{ color: "#c94939" }}
+              className="last"
+            />
             <h4>HTML</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -64,7 +76,11 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <SiTailwindcss className="skill-icon" />
+            <SiTailwindcss
+              size={25}
+              style={{ color: "#11d1b8d8" }}
+              className="last"
+            />
             <h4>TailwindCSS</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -73,7 +89,11 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <FaBootstrap className="skill-icon" />
+            <FaBootstrap
+              size={25}
+              style={{ color: "#706ac9" }}
+              className="last"
+            />
             <h4>Bootstrap</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -82,7 +102,11 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <SiMaterialui className="skill-icon" />
+            <SiMaterialui
+              size={25}
+              style={{ color: "#3b66f5" }}
+              className="last"
+            />
             <h4>Material UI</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
@@ -91,7 +115,7 @@ const Experience = () => {
           </article>
 
           <article className="experience-details">
-            <FaGitAlt className="skill-icon" />
+            <FaGitAlt size={25} style={{ color: "#dd452a" }} className="last" />
             <h4>Git & GitHub</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
