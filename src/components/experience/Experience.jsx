@@ -19,66 +19,84 @@ const Experience = () => {
       <div className="container experience-container">
         <div className="experience-content">
           <article className="experience-details">
-            <FaReact />
+            <FaReact className="skill-icon" />
             <h4>React</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <RiVuejsFill />
+            <RiVuejsFill className="skill-icon" />
             <h4>Vue</h4>
-            <small className="text-light">Intermediate</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Intermediate</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <TbBrandJavascript />
+            <TbBrandJavascript className="skill-icon" />
             <h4>Javascript</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <DiCss3 />
+            <DiCss3 className="skill-icon" />
             <h4>CSS</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <AiOutlineHtml5 />
+            <AiOutlineHtml5 className="skill-icon" />
             <h4>HTML</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <SiTailwindcss />
+            <SiTailwindcss className="skill-icon" />
             <h4>TailwindCSS</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <FaBootstrap />
+            <FaBootstrap className="skill-icon" />
             <h4>Bootstrap</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <SiMaterialui />
+            <SiMaterialui className="skill-icon" />
             <h4>Material UI</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
 
           <article className="experience-details">
-            <FaGitAlt />
+            <FaGitAlt className="skill-icon" />
             <h4>Git & GitHub</h4>
-            <small className="text-light">Experienced</small>
-            <BsPatchCheckFill />
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
           </article>
         </div>
       </div>

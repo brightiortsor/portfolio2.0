@@ -1,0 +1,57 @@
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.experience-details h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.experience-details small {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.verified-icon {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.icon {
+    width: 12px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-details {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experience-details {
+        flex-basis: 100%;
+    }
+}
