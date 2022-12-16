@@ -20,7 +20,7 @@ const Experience = () => {
         <div className="experience-content">
           <article className="experience-details">
             <FaReact size={25} style={{ color: "#5aa3c5" }} className="last" />
-            <h4>React</h4>
+            <h4>ReactJs</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
               <BsPatchCheckFill className="icon" />
@@ -33,7 +33,7 @@ const Experience = () => {
               style={{ color: "#38b871" }}
               className="last"
             />
-            <h4>Vue</h4>
+            <h4>VueJs</h4>
             <div className="verified-icon">
               <small className="text-light">Intermediate</small>
               <BsPatchCheckFill className="icon" />
@@ -117,6 +117,32 @@ const Experience = () => {
           <article className="experience-details">
             <FaGitAlt size={25} style={{ color: "#dd452a" }} className="last" />
             <h4>Git & GitHub</h4>
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
+          </article>
+
+          <article className="experience-details">
+            <TbBrandJavascript
+              size={25}
+              style={{ color: "#cfba3f" }}
+              className="last"
+            />
+            <h4>SwiperJs</h4>
+            <div className="verified-icon">
+              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
+          </article>
+
+          <article className="experience-details">
+            <TbBrandJavascript
+              size={25}
+              style={{ color: "#cfba3f" }}
+              className="last"
+            />
+            <h4>EmailJs</h4>
             <div className="verified-icon">
               <small className="text-light">Experienced</small>
               <BsPatchCheckFill className="icon" />

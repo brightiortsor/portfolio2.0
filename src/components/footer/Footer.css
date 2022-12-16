@@ -1,0 +1,101 @@
+footer {
+    background-color: var(--color-primary);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+footer a {
+    color: var(--color-bg);
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.code-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2px;
+    margin-top: -1rem;
+    margin-bottom: -0.4rem;
+    color: rgb(97, 57, 7);
+}
+
+.my-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2px;
+    margin-top: -1rem;
+    color: rgb(97, 57, 7);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-socials a {
+    display: flex;
+    border: 1px solid transparent;
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.footer-socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-bg);
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-socials {
+        flex-direction: row;
+    }
+
+    .footer-socials a {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-socials a {
+        padding: 0.5rem 1rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .footer-socials {
+        flex-direction: row;
+    }
+}

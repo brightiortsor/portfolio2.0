@@ -10,6 +10,14 @@ header {
     position: relative;
 }
 
+.home-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 2rem;
+    margin-right: -6rem;
+}
+
 .cta {
     display: flex;
     justify-content: center;
@@ -118,6 +126,10 @@ header {
         font-size: 1.5rem;
     }
 
+    .home-logo {
+        display: none;
+
+    }
 }
 
 /* tab */
@@ -131,6 +143,10 @@ header {
         display: none;
     }
 
+    .home-logo {
+        display: none;
+
+    }
 }
 
 /* mobile */
@@ -142,5 +158,10 @@ header {
     .scroll-down,
     .header-socials {
         display: none;
+    }
+
+    .home-logo {
+        display: none;
+
     }
 }

@@ -26,8 +26,8 @@ nav a:hover {
 }
 
 nav a.active {
-    background: rgb(47, 47, 88);
-    color: var(--color-white);
-    border-radius: 0.8rem;
-    padding: 4px;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border-radius: 1rem;
+    padding: 5px;
 }
