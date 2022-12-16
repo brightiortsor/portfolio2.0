@@ -3,7 +3,7 @@ import About from "./components/about/About.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Projects from "./components/projects/Projects.jsx";
 import Testimonial from "./components/testimonials/Testimonial.jsx";
-// import Contact from "./components/contact/Contact.jsx";
+import Contact from "./components/contact/Contact.jsx";
 import Experience from "./components/experience/Experience.jsx";
 // import Footer from "./components/footer/Footer.jsx";
 
@@ -16,7 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Testimonial />
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
     </div>
   );
