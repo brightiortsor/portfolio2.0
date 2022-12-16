@@ -23,6 +23,9 @@
   --container-width-sm: 90%;
 
   --transition: all 400ms ease;
+  --swiper-navigation-size: 1.5rem;
+  --swiper-navigation-color: var(--color-primary);
+  --swiper-pagination-color: var(--color-primary);
 }
 
 html {
