@@ -20,9 +20,9 @@ const Experience = () => {
         <div className="experience-content">
           <article className="experience-details">
             <FaReact size={25} style={{ color: "#5aa3c5" }} className="last" />
-            <h4>ReactJs</h4>
+            {/* <h4>ReactJs</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">React.js</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -33,9 +33,9 @@ const Experience = () => {
               style={{ color: "#38b871" }}
               className="last"
             />
-            <h4>VueJs</h4>
+            {/* <h4>VueJs</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Intermediate</small>
+              <small className="text-light">Vue.js</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -46,18 +46,18 @@ const Experience = () => {
               style={{ color: "#cfba3f" }}
               className="last"
             />
-            <h4>Javascript</h4>
+            {/* <h4>Javascript</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Javascript</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
 
           <article className="experience-details">
             <DiCss3 size={25} style={{ color: "#0f3cce" }} className="last" />
-            <h4>CSS</h4>
+            {/* <h4>CSS</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">CSS3</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -68,9 +68,9 @@ const Experience = () => {
               style={{ color: "#c94939" }}
               className="last"
             />
-            <h4>HTML</h4>
+            {/* <h4>HTML</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">HTML5</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -81,9 +81,9 @@ const Experience = () => {
               style={{ color: "#11d1b8d8" }}
               className="last"
             />
-            <h4>TailwindCSS</h4>
+            {/* <h4>TailwindCSS</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Tailwind</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -94,9 +94,9 @@ const Experience = () => {
               style={{ color: "#706ac9" }}
               className="last"
             />
-            <h4>Bootstrap</h4>
+            {/* <h4>Bootstrap</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Bootstrap</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -107,23 +107,23 @@ const Experience = () => {
               style={{ color: "#3b66f5" }}
               className="last"
             />
-            <h4>Material UI</h4>
+            {/* <h4>Material UI</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Material Ui</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
 
           <article className="experience-details">
             <FaGitAlt size={25} style={{ color: "#dd452a" }} className="last" />
-            <h4>Git & GitHub</h4>
+            {/* <h4>Git & GitHub</h4> */}
             <div className="verified-icon">
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Git/GitHub</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
 
-          <article className="experience-details">
+          {/* <article className="experience-details">
             <TbBrandJavascript
               size={25}
               style={{ color: "#cfba3f" }}
@@ -134,9 +134,9 @@ const Experience = () => {
               <small className="text-light">Experienced</small>
               <BsPatchCheckFill className="icon" />
             </div>
-          </article>
+          </article> */}
 
-          <article className="experience-details">
+          {/* <article className="experience-details">
             <TbBrandJavascript
               size={25}
               style={{ color: "#cfba3f" }}
@@ -147,7 +147,7 @@ const Experience = () => {
               <small className="text-light">Experienced</small>
               <BsPatchCheckFill className="icon" />
             </div>
-          </article>
+          </article> */}
         </div>
       </div>
     </section>

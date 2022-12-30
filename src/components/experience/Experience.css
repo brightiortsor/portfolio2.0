@@ -1,72 +1,66 @@
 .experience-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
-    border-radius: 2rem;
-    background: var(--color-bg-secondary);
-    transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  border-radius: 2rem;
+  background: var(--color-bg-secondary);
+  transition: var(--transition);
 }
 
 .experience-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .experience-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-basis: 25%;
-    text-align: center;
-    transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 25%;
+  text-align: center;
+  transition: var(--transition);
 }
 
 .experience-details:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .experience-details h4 {
-    font-size: 1.5rem;
-    font-weight: 600;
-
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .experience-details small {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .verified-icon {
-    display: flex;
-    align-items: center;
-    gap: .3rem;
-    color: rgb(241, 237, 237);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: rgb(241, 237, 237);
 }
 
-
 .icon {
-    width: 12px;
-    margin-bottom: 2rem;
+  width: 12px;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-    .experience-details {
-        flex-basis: 50%;
-    }
+  .experience-details {
+    flex-basis: 50%;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .experience-details {
-        flex-basis: 50%;
-    }
-
-    .last {
-        display: none;
-    }
+  .experience-details {
+    flex-basis: 50%;
+  }
 }

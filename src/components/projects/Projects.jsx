@@ -3,7 +3,7 @@ import Landing from "../../assets/manage1.png";
 import Phonie from "../../assets/phonie.png";
 import Todo from "../../assets/todo.png";
 import Gallery from "../../assets/gallery.png";
-import Portfolio from "../../assets/porfolio.png";
+import Chatapp from "../../assets/chatapp.png";
 import Github from "../../assets/github.png";
 
 const data = [
@@ -30,10 +30,10 @@ const data = [
   },
   {
     id: 4,
-    title: "A Portfolio Site",
-    img: Portfolio,
-    github: "https://github.com/brightiortsor/myPortfolio",
-    demo: "https://brightiortsor.netlify.app",
+    title: "Web Chat App",
+    img: Chatapp,
+    github: "https://github.com/brightiortsor/chatapp",
+    demo: "http://chatapp-pink.vercel.app",
   },
   {
     id: 5,
