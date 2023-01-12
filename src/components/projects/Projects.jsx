@@ -5,6 +5,9 @@ import Todo from "../../assets/todo.png";
 import Gallery from "../../assets/gallery.png";
 import Chatapp from "../../assets/chatapp.png";
 import Github from "../../assets/github.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const data = [
   {
@@ -52,21 +55,43 @@ const data = [
 ];
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio-container">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="container portfolio-container"
+      >
         {data.map(({ id, img, title, github, demo }) => {
           return (
-            <article key={id} className="portfolio-item">
+            <article
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              key={id}
+              className="portfolio-item"
+            >
               <div className="portfolio-item__img">
-                <img src={img} alt={title} />
+                <img
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  src={img}
+                  alt={title}
+                />
               </div>
-              <h4>{title}</h4>
+              <h4 data-aos="fade-right" data-aos-duration="3000">
+                {title}
+              </h4>
               <div className="portfolio-cta">
                 <a
+                  data-aos="fade-right"
+                  data-aos-duration="4000"
                   href={github}
                   className="btn"
                   target="_blank"
@@ -74,7 +99,14 @@ const Projects = () => {
                 >
                   GitHub
                 </a>
-                <a href={demo} className="btn" target="_blank" rel="noreferrer">
+                <a
+                  data-aos="fade-right"
+                  data-aos-duration="4000"
+                  href={demo}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Demo
                 </a>
               </div>

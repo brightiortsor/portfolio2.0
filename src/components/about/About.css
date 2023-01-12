@@ -25,8 +25,8 @@
 }
 
 .about-me-img img {
-    width: 92%;
-    padding: 5px 0;
+    width: 100%;
+    padding: 5px 1rem;
 }
 
 .about-cards {
@@ -100,6 +100,7 @@
     }
 }
 
+
 @media screen and (max-width: 600px) {
 
     .about-me {
@@ -121,5 +122,15 @@
 
     .about-me-img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-me {
+        width: 80%;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr;
     }
 }
