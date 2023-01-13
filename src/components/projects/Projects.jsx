@@ -1,9 +1,9 @@
 import "./Projects.css";
-import Landing from "../../assets/manage1.png";
+import Manage from "../../assets/manage.png";
 import Phonie from "../../assets/phonie.png";
 import Todo from "../../assets/todo.png";
-import Gallery from "../../assets/gallery.png";
-import Chatapp from "../../assets/chatapp.png";
+import Urekka from "../../assets/urekka.png";
+import Travel from "../../assets/travel.png";
 import Github from "../../assets/github.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -13,7 +13,7 @@ const data = [
   {
     id: 1,
     title: "Landing Page for a Data Company",
-    img: Landing,
+    img: Manage,
     github: "https://github.com/brightiortsor/manage-landingPage",
     demo: "https://manage-demo.netlify.app",
   },
@@ -33,17 +33,17 @@ const data = [
   },
   {
     id: 4,
-    title: "Web Chat App",
-    img: Chatapp,
-    github: "https://github.com/brightiortsor/chatapp",
-    demo: "http://chatapp-pink.vercel.app",
+    title: "Holiday Destinations Finder",
+    img: Travel,
+    github: "https://github.com/brightiortsor/travel_app",
+    demo: "https://travel-app-lake.vercel.app",
   },
   {
     id: 5,
-    title: "Image Gallery for random images",
-    img: Gallery,
-    github: "https://github.com/brightiortsor/image_gallery",
-    demo: "https://theimagegalleria.netlify.app",
+    title: "A web app for a Consulting firm",
+    img: Urekka,
+    github: "https://github.com/brightiortsor",
+    demo: "https://urekka.vercel.app",
   },
   {
     id: 6,

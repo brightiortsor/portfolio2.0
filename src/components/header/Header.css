@@ -166,7 +166,7 @@ img {
    .header-socials {
     position: absolute;
     top: 4rem;
-    left: -60rem;
+    left: -70rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
