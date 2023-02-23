@@ -86,7 +86,7 @@ const Experience = () => {
             <DiCss3 size={25} style={{ color: "#0f3cce" }} className="last" />
 
             <div className="verified-icon">
-              <small className="text-light">CSS3</small>
+              <small className="text-light">Typescript</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -103,7 +103,7 @@ const Experience = () => {
             />
 
             <div className="verified-icon">
-              <small className="text-light">HTML5</small>
+              <small className="text-light">CSS3</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -120,7 +120,7 @@ const Experience = () => {
             />
 
             <div className="verified-icon">
-              <small className="text-light">Tailwind</small>
+              <small className="text-light">HTML5</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -137,7 +137,7 @@ const Experience = () => {
             />
 
             <div className="verified-icon">
-              <small className="text-light">Bootstrap</small>
+              <small className="text-light">Tailwind</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
@@ -154,12 +154,25 @@ const Experience = () => {
             />
 
             <div className="verified-icon">
-              <small className="text-light">Material Ui</small>
+              <small className="text-light">Bootstrap</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
 
           <article
+            data-aos="fade-up"
+            data-aos-duration="4500"
+            className="experience-details"
+          >
+            <FaGitAlt size={25} style={{ color: "#dd452a" }} className="last" />
+
+            <div className="verified-icon">
+              <small className="text-light">Material UI</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
+          </article>
+
+<article
             data-aos="fade-up"
             data-aos-duration="4500"
             className="experience-details"
