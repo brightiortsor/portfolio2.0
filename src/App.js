@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     AOS.init({
@@ -19,14 +19,13 @@ function App() {
       offset: 0,
       once: true,
     });
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 3000);
   }, []);
 
   return loading ? (
-    <div className="loading">
+    <div className="loading" style={{ backgroundColor: "black" }}>
       <div className="lds-roller">
         <div></div>
         <div></div>
