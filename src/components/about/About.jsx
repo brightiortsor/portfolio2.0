@@ -1,5 +1,5 @@
 import "./About.css";
-import ME from "../../assets/b3.PNG";
+import ME from "../../assets/me.jpg";
 import { FaAward } from "react-icons/fa";
 import { BsFolder2 } from "react-icons/bs";
 import Aos from "aos";
@@ -24,7 +24,7 @@ const About = () => {
           <div className="about-me-img">
             <img
               src={ME}
-              alt="About"
+              alt="My profile"
               data-aos="fade-up"
               data-aos-duration="4000"
             />
@@ -40,7 +40,7 @@ const About = () => {
             >
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              <small>1 . 5 + Working Years</small>
+              <small>Over 1 . 5 + Working Years</small>
             </article>
             <article
               data-aos="fade-left"

@@ -1,3 +1,7 @@
+#about {
+    margin: 10rem 0 8rem 0; 
+}
+
 .about-container {
     display: grid;
     grid-template-columns: 35% 50%;

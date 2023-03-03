@@ -40,7 +40,7 @@ const data = [
   },
   {
     id: 5,
-    title: "A web app for a Consulting firm",
+    title: "A Web App for an EduConsulting firm",
     img: Urekka,
     github: "https://github.com/brightiortsor",
     demo: "https://urekka.vercel.app",
