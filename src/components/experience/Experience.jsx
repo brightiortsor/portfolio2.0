@@ -9,6 +9,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { SiMaterialui } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { useEffect } from "react";
@@ -83,7 +84,24 @@ const Experience = () => {
             data-aos-duration="3000"
             className="experience-details"
           >
-            <DiCss3 size={25} style={{ color: "#0f3cce" }} className="last" />
+            <SiTypescript size={25} style={{ color: "#0f3cce" }} className="last" />
+
+            <div className="verified-icon">
+              <small className="text-light">Typescript</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
+          </article>
+
+          <article
+            data-aos="fade-up"
+            data-aos-duration="3500"
+            className="experience-details"
+          >
+            <DiCss3 
+              size={25}
+              style={{ color: "#c94939" }}
+              className="last"
+            />
 
             <div className="verified-icon">
               <small className="text-light">CSS3</small>
@@ -96,9 +114,9 @@ const Experience = () => {
             data-aos-duration="3500"
             className="experience-details"
           >
-            <AiOutlineHtml5
+            <AiOutlineHtml5 
               size={25}
-              style={{ color: "#c94939" }}
+              style={{ color: "#11d1b8d8" }}
               className="last"
             />
 
@@ -110,12 +128,12 @@ const Experience = () => {
 
           <article
             data-aos="fade-up"
-            data-aos-duration="3500"
+            data-aos-duration="4000"
             className="experience-details"
           >
             <SiTailwindcss
               size={25}
-              style={{ color: "#11d1b8d8" }}
+              style={{ color: "#706ac9" }}
               className="last"
             />
 
@@ -130,9 +148,9 @@ const Experience = () => {
             data-aos-duration="4000"
             className="experience-details"
           >
-            <FaBootstrap
+            <FaBootstrap 
               size={25}
-              style={{ color: "#706ac9" }}
+              style={{ color: "#3b66f5" }}
               className="last"
             />
 
@@ -144,22 +162,18 @@ const Experience = () => {
 
           <article
             data-aos="fade-up"
-            data-aos-duration="4000"
+            data-aos-duration="4500"
             className="experience-details"
           >
-            <SiMaterialui
-              size={25}
-              style={{ color: "#3b66f5" }}
-              className="last"
-            />
+            <SiMaterialui size={25} style={{ color: "#dd452a" }} className="last" />
 
             <div className="verified-icon">
-              <small className="text-light">Material Ui</small>
+              <small className="text-light">Material UI</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
 
-          <article
+<article
             data-aos="fade-up"
             data-aos-duration="4500"
             className="experience-details"
