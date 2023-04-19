@@ -5,7 +5,7 @@ import { RiVuejsFill } from "react-icons/ri";
 import { TbBrandJavascript } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiRedux } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { SiMaterialui } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
@@ -32,6 +32,7 @@ const Experience = () => {
           data-aos-duration="2000"
           className="experience-content"
         >
+          {/* 1 */}
           <article
             data-aos="fade-up"
             data-aos-duration="2500"
@@ -45,23 +46,39 @@ const Experience = () => {
             </div>
           </article>
 
+          {/* 2 */}
           <article
             data-aos="fade-up"
             data-aos-duration="2500"
             className="experience-details"
           >
-            <RiVuejsFill
+            <SiNextdotjs
               size={25}
-              style={{ color: "#38b871" }}
+              style={{ color: "#5aa3c5" }}
               className="last"
             />
 
             <div className="verified-icon">
-              <small className="text-light">Vue.js</small>
+              <small className="text-light">Next.js</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
 
+          {/* 3 */}
+          <article
+            data-aos="fade-up"
+            data-aos-duration="2500"
+            className="experience-details"
+          >
+            <SiRedux size={25} style={{ color: "#38b871" }} className="last" />
+
+            <div className="verified-icon">
+              <small className="text-light">Redux</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
+          </article>
+
+          {/* 4 */}
           <article
             data-aos="fade-up"
             data-aos-duration="3000"
@@ -79,12 +96,17 @@ const Experience = () => {
             </div>
           </article>
 
+          {/* 5 */}
           <article
             data-aos="fade-up"
             data-aos-duration="3000"
             className="experience-details"
           >
-            <SiTypescript size={25} style={{ color: "#0f3cce" }} className="last" />
+            <SiTypescript
+              size={25}
+              style={{ color: "#0f3cce" }}
+              className="last"
+            />
 
             <div className="verified-icon">
               <small className="text-light">Typescript</small>
@@ -92,16 +114,13 @@ const Experience = () => {
             </div>
           </article>
 
+          {/* 6 */}
           <article
             data-aos="fade-up"
             data-aos-duration="3500"
             className="experience-details"
           >
-            <DiCss3 
-              size={25}
-              style={{ color: "#c94939" }}
-              className="last"
-            />
+            <DiCss3 size={25} style={{ color: "#c94939" }} className="last" />
 
             <div className="verified-icon">
               <small className="text-light">CSS3</small>
@@ -109,12 +128,13 @@ const Experience = () => {
             </div>
           </article>
 
+          {/* 7 */}
           <article
             data-aos="fade-up"
             data-aos-duration="3500"
             className="experience-details"
           >
-            <AiOutlineHtml5 
+            <AiOutlineHtml5
               size={25}
               style={{ color: "#11d1b8d8" }}
               className="last"
@@ -125,7 +145,7 @@ const Experience = () => {
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
-
+          {/* 8 */}
           <article
             data-aos="fade-up"
             data-aos-duration="4000"
@@ -143,12 +163,13 @@ const Experience = () => {
             </div>
           </article>
 
+          {/* 9 */}
           <article
             data-aos="fade-up"
             data-aos-duration="4000"
             className="experience-details"
           >
-            <FaBootstrap 
+            <FaBootstrap
               size={25}
               style={{ color: "#3b66f5" }}
               className="last"
@@ -160,12 +181,17 @@ const Experience = () => {
             </div>
           </article>
 
+          {/* 10 */}
           <article
             data-aos="fade-up"
             data-aos-duration="4500"
             className="experience-details"
           >
-            <SiMaterialui size={25} style={{ color: "#dd452a" }} className="last" />
+            <SiMaterialui
+              size={25}
+              style={{ color: "#dd452a" }}
+              className="last"
+            />
 
             <div className="verified-icon">
               <small className="text-light">Material UI</small>
@@ -173,7 +199,8 @@ const Experience = () => {
             </div>
           </article>
 
-<article
+          {/* 11 */}
+          <article
             data-aos="fade-up"
             data-aos-duration="4500"
             className="experience-details"
@@ -182,6 +209,24 @@ const Experience = () => {
 
             <div className="verified-icon">
               <small className="text-light">Git/GitHub</small>
+              <BsPatchCheckFill className="icon" />
+            </div>
+          </article>
+
+          {/* 12 */}
+          <article
+            data-aos="fade-up"
+            data-aos-duration="4500"
+            className="experience-details"
+          >
+            <RiVuejsFill
+              size={25}
+              style={{ color: "#dd452a" }}
+              className="last"
+            />
+
+            <div className="verified-icon">
+              <small className="text-light">Vue.js</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
