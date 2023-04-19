@@ -67,13 +67,13 @@ section {
   margin-top: 4rem;
 }
 
-section>h2,
-section>h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-section>h2 {
+section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
@@ -93,7 +93,7 @@ a:hover {
 
 .btn {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
   border: 1px solid var(--color-primary);
   color: var(--color-white);
@@ -102,9 +102,10 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: rgb(231, 225, 225);
+  color: black;
   border-color: transparent;
+  font-weight: 600;
 }
 
 .btn-primary {
@@ -136,7 +137,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section>h2 {
+  section > h2 {
     margin-bottom: 2rem;
   }
 }

@@ -7,7 +7,7 @@ import Travel from "../../assets/travel.png";
 import Github from "../../assets/github.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const data = [
   {
@@ -19,35 +19,35 @@ const data = [
   },
   {
     id: 2,
-    title: "Network Monitoring App",
+    title: "Network Carrier Checker",
     img: Phonie,
     github: "https://replit.com/@Super-Circle/super-circle-phoenie",
     demo: "https://super-circle-phoenie.super-circle.repl.co",
   },
   {
     id: 3,
-    title: "Github Profile Finder",
+    title: "Github User Finder",
     img: Github,
     github: "https://github.com/brightiortsor/github_finder_app",
     demo: "https://githubpersonfinder.netlify.app",
   },
   {
     id: 4,
-    title: "Holiday Destinations Finder",
+    title: "Holiday Destinations Planner",
     img: Travel,
     github: "https://github.com/brightiortsor/travel_app",
     demo: "https://travel-app-lake.vercel.app",
   },
   {
     id: 5,
-    title: "A Web App for an EduConsulting firm",
+    title: "An EduConsulting",
     img: Urekka,
     github: "https://github.com/brightiortsor",
     demo: "https://urekka.vercel.app",
   },
   {
     id: 6,
-    title: " Todo List for Sorting Tasks",
+    title: "Todo Sorter",
     img: Todo,
     github: "https://github.com/brightiortsor/Todo_list",
     demo: "https://todo-lyst-app.netlify.app",
@@ -55,10 +55,20 @@ const data = [
 ];
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const visibleProjects = showAll ? data : data.slice(0, 3);
+
+  const handleShowMore = () => {
+    setShowAll(true);
+  };
+
+  const handleShowLess = () => {
+    setShowAll(false);
+  };
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-
   return (
     <section id="projects">
       <h5>My Recent Work</h5>
@@ -69,7 +79,7 @@ const Projects = () => {
         data-aos-duration="2000"
         className="container portfolio-container"
       >
-        {data.map(({ id, img, title, github, demo }) => {
+        {visibleProjects.map(({ id, img, title, github, demo }) => {
           return (
             <article
               data-aos="fade-up"
@@ -113,6 +123,18 @@ const Projects = () => {
             </article>
           );
         })}
+      </div>
+      <hr className="hr" />
+      <div className="show-more-less">
+        {showAll ? (
+          <button className="show-btn" onClick={handleShowLess}>
+            Show Less
+          </button>
+        ) : (
+          <button className="show-btn" onClick={handleShowMore}>
+            Show More
+          </button>
+        )}
       </div>
     </section>
   );
