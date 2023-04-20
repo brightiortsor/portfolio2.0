@@ -1,5 +1,7 @@
 import "./Projects.css";
 import Manage from "../../assets/manage.png";
+import Logistics from "../../assets/logistics.png";
+import Taskify from "../../assets/taskify.jpeg";
 import Phonie from "../../assets/phonie.png";
 import Todo from "../../assets/todo.png";
 import Urekka from "../../assets/urekka.png";
@@ -12,10 +14,10 @@ import { useEffect, useState } from "react";
 const data = [
   {
     id: 1,
-    title: "Landing Page for a Data Company",
-    img: Manage,
-    github: "https://github.com/brightiortsor/manage-landingPage",
-    demo: "https://manage-demo.netlify.app",
+    title: "Shipping Logistics Website",
+    img: Logistics,
+    github: "https://github.com/brightiortsor?tab=repositories",
+    demo: "https://chuzzyintegratedlogisitics.com",
   },
   {
     id: 2,
@@ -26,31 +28,46 @@ const data = [
   },
   {
     id: 3,
+    title: "Landing Page for a Data Company",
+    img: Manage,
+    github: "https://github.com/brightiortsor/manage-landingPage",
+    demo: "https://manage-demo.netlify.app",
+  },
+  {
+    id: 4,
     title: "Github User Finder",
     img: Github,
     github: "https://github.com/brightiortsor/github_finder_app",
     demo: "https://githubpersonfinder.netlify.app",
   },
   {
-    id: 4,
-    title: "Holiday Destinations Planner",
-    img: Travel,
-    github: "https://github.com/brightiortsor/travel_app",
-    demo: "https://travel-app-lake.vercel.app",
-  },
-  {
     id: 5,
+    title: "Task Manager (Taskify)",
+    img: Taskify,
+    github: "https://github.com/brightiortsor/taskify",
+    demo: "https://taskify4u.vercel.app/",
+  },
+
+  {
+    id: 6,
     title: "An EduConsulting",
     img: Urekka,
     github: "https://github.com/brightiortsor",
     demo: "https://urekka.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "Todo Sorter",
     img: Todo,
     github: "https://github.com/brightiortsor/Todo_list",
     demo: "https://todo-lyst-app.netlify.app",
+  },
+  {
+    id: 8,
+    title: "Holiday Destinations Planner",
+    img: Travel,
+    github: "https://github.com/brightiortsor/travel_app",
+    demo: "https://travel-app-lake.vercel.app",
   },
 ];
 
@@ -107,7 +124,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub
+                  CODE
                 </a>
                 <a
                   data-aos="fade-right"
@@ -117,7 +134,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Demo
+                  DEMO
                 </a>
               </div>
             </article>
