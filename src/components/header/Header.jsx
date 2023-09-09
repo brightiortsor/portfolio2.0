@@ -6,6 +6,7 @@ import Socials from "./Socials";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { BsArrowUp } from "react-icons/bs";
 
 const Header = () => {
   useEffect(() => {
@@ -31,11 +32,6 @@ const Header = () => {
             <img src={ME} alt="Bright" />
           </div>
         </div>
-
-        <Socials />
-        <a href="#contact" className="scroll-down">
-          Scroll Down
-        </a>
       </div>
     </header>
   );
