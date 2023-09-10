@@ -1,12 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Header.css";
 import CTA from "./CTA";
 import ME from "../../assets/home3.webp";
-import Socials from "./Socials";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { BsArrowUp } from "react-icons/bs";
 
 const Header = () => {
   useEffect(() => {

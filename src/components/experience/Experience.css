@@ -1,13 +1,19 @@
 .experience-container {
-  width: 60%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   padding: 2rem 0;
   border-radius: 2rem;
   background: var(--color-bg-secondary);
   transition: var(--transition);
+}
+
+#experience h5 {
+  font-size: 1.2rem;
+}
+
+#experience h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 .experience-content {

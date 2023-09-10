@@ -1,11 +1,20 @@
 #projects {
-  margin: 10rem 0 8rem 0;
+  margin: 8rem 0 6rem 0;
 }
 
+#projects h5 {
+  font-size: 1.2rem;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .portfolio-item {
@@ -14,6 +23,7 @@
   border-radius: 1.5rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  margin-bottom: 1rem;
 }
 
 .portfolio-item:hover {
@@ -87,5 +97,11 @@
   .portfolio-container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #projects {
+    margin: 5rem 0 5rem 0;
   }
 }

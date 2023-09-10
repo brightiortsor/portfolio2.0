@@ -1,9 +1,14 @@
 import React from "react";
-import CV from "../../assets/BRIGHT-IORTSOR-0FE.pdf";
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={CV} download className="btn">
+      <a
+        href={
+          "https://drive.google.com/file/d/1yO3WC-TK6Bl2U0FMEqEgGhnurCoe2yN-/view?usp=sharing"
+        }
+        download
+        className="btn"
+      >
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">

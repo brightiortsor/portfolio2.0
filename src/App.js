@@ -23,7 +23,7 @@ function App() {
     });
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
 
     // scroll event listener to control when to show the scroll button
     window.addEventListener("scroll", handleScroll);
@@ -82,7 +82,7 @@ function App() {
           position: "fixed",
           top: "4rem",
           left: "1rem",
-          zIndex: "1000",
+          zIndex: "1001",
         }}
       >
         <Socials />
@@ -92,10 +92,14 @@ function App() {
         <div
           style={{
             position: "fixed",
-            bottom: "2.5rem",
-            right: "1rem",
+            bottom: "6rem",
+            right: "0.5rem",
             zIndex: "1000",
             fontSize: "2rem",
+            backgroundColor: "rgba(0,0,0,0.5)",
+            borderRadius: "50%",
+            padding: "0.3rem 0.8rem",
+            cursor: "pointer",
           }}
         >
           <a href="#" onClick={scrollToTop}>

@@ -1,140 +1,158 @@
 #about {
-    margin: 10rem 0 8rem 0; 
+  margin: 8rem 0 6rem 0;
 }
 
+#about h5 {
+  font-size: 1.2rem;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
 .about-container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+  display: grid;
+  grid-template-columns: 35% 55%;
+  gap: 10%;
 }
 
 .about-me {
-    width: 100%;
-    height: fit-content;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    display: grid;
-    place-items: center;
+  margin-top: 2rem;
+  width: 100%;
+  height: fit-content;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
 }
 
 .about-me-img {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(-10deg);
-    transition: var(--transition);
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(-10deg);
+  transition: var(--transition);
 }
 
 .about-me-img:hover {
-    transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .about-me-img img {
-    width: 100%;
-    padding: 5px 1rem;
+  width: 100%;
+  padding: 5px 1rem;
 }
 
 .about-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem 0;
 }
 
 .about-card {
-
-    border: 1px solid var(--color-primary);
-    border-radius: 1rem;
-    padding: 1rem;
-    text-align: center;
-    transition: var(--transition);
+  border: 1px solid var(--color-primary);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  transition: var(--transition);
 }
 
 .about-card:hover {
-    transform: scale(1.05);
-    cursor: default;
+  transform: scale(1.05);
+  cursor: default;
 }
 
 .about-card h5 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 0.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
 }
 
 .about-card small {
-    font-size: 0.8rem;
-    color: var(--color-light);
+  font-size: 0.8rem;
+  color: var(--color-light);
 }
 
 .about-icon {
-    color: var(--color-primary);
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .about-content p {
-    color: var(--color-light);
-    margin: 1.5rem 0 2rem 0;
-    text-align: justify;
+  color: var(--color-light);
+  margin: 1.5rem 0 2rem 0;
+  text-align: justify;
 }
 
 .about-content a {
-    color: var(--color-light);
-    font-weight: 600;
-    font-size: 18px;
+  color: var(--color-light);
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /* Md */
 @media screen and (max-width: 1024px) {
-    .about-container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
-    .about-me {
-        width: 60%;
-        margin: 0.1rem auto 1.5rem;
-    }
+  .about-me {
+    width: 60%;
+    margin: 0.1rem auto 1.5rem;
+  }
 
-    .about-content p {
-        margin: 0.5rem 0 1.5rem 0;
-    }
+  .about-content p {
+    margin: 0.5rem 0 1.5rem 0;
+  }
 
-    .about-me-img {
-        width: 60%;
-    }
+  .about-me-img {
+    width: 60%;
+  }
 }
-
 
 @media screen and (max-width: 600px) {
+  .about-me {
+    width: 80%;
+    margin: 0 auto 3rem;
+  }
 
-    .about-me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
+  .about-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .about-cards {
-        grid-template-columns: 1fr 1fr;
-    }
+  .about-content {
+    text-align: center;
+  }
 
-    .about-content {
-        text-align: center;
-    }
+  .about-content p {
+    margin: 1.5rem 0;
+  }
 
-    .about-content p {
-        margin: 1.5rem 0;
-    }
-
-    .about-me-img {
-        width: 100%;
-    }
+  .about-me-img {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 400px) {
-    .about-me {
-        width: 80%;
-    }
+@media screen and (max-width: 460px) {
+  #about {
+    margin: 5rem 0 5rem 0;
+  }
+  .about-me {
+    width: 100%;
+  }
 
-    .about-cards {
-        grid-template-columns: 1fr;
-    }
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+  .btn-sm {
+    width: 100%;
+  }
 }

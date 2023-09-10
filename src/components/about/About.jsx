@@ -40,7 +40,13 @@ const About = () => {
             >
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              <small>Over 1 . 5 + Working Years</small>
+              <small>
+                Over{" "}
+                <span style={{ fontSize: "1.2rem", padding: "0 0.2rem" }}>
+                  1.5+
+                </span>{" "}
+                Working Years
+              </small>
             </article>
             <article
               data-aos="fade-left"
@@ -49,20 +55,26 @@ const About = () => {
             >
               <BsFolder2 className="about-icon" />
               <h5>Projects</h5>
-              <small>3 0 + Completed</small>
+              <small>
+                {" "}
+                <span style={{ fontSize: "1.2rem", padding: "0 0.2rem" }}>
+                  30+
+                </span>{" "}
+                Completed
+              </small>
             </article>
           </div>
           <p data-aos="fade-up" data-aos-duration="2000">
             I build mobile friendly and responsive stuff for the web and
             everything in between. I am eager to continue learning and growing
-            myself as a developer, and I am excited to bring my skills and
-            experience to a new team.
+            myself as a Software Engineer, and I am excited to bring my skills
+            and experience to a new team.
           </p>
           <a
             data-aos="fade-up"
             data-aos-duration="2000"
             href="#contact"
-            className="btn btn-primary about-btn"
+            className="btn btn-primary about-btn btn-sm"
           >
             Let's Talk?
           </a>

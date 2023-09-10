@@ -1,10 +1,12 @@
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   useEffect(() => {
@@ -12,19 +14,49 @@ const Contact = () => {
   }, []);
 
   const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const [isLoading, setIsLoading] = useState(false);
 
-    emailjs.sendForm(
-      "service_m5jj4ln",
-      "template_ph13dep",
-      form.current,
-      "yzePNeFNS-PFVI6Vj"
-    );
-    e.target.reset();
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    try {
+      await emailjs.sendForm(
+        "service_m5jj4ln",
+        "template_ph13dep",
+        form.current,
+        "yzePNeFNS-PFVI6Vj"
+      );
+
+      toast.success(
+        "Thank you for reaching out to me, you will get a response shortly.",
+        {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+        }
+      );
+
+      e.target.reset();
+    } catch (error) {
+      toast.error("Error sending message. Please try again later.", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
   return (
     <section id="contact">
+      <ToastContainer />
       <h5 data-aos="fade-up" data-aos-duration="2000">
         Get in Touch
       </h5>
@@ -93,8 +125,9 @@ const Contact = () => {
               data-aos-duration="3500"
               type="submit"
               className="btn btn-primary btn-form"
+              disabled={isLoading}
             >
-              Send Message
+              {isLoading ? "Sending..." : "Send Message"}
             </button>
           </form>
         </div>

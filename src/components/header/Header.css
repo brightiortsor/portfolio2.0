@@ -20,6 +20,14 @@ header {
   margin-left: 1rem;
 }
 
+.header-details h5,
+h1,
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
 .cta {
   display: flex;
   justify-content: center;
@@ -57,22 +65,13 @@ img {
   background: var(--color-primary);
 }
 
-.scroll-down {
-  /* position: fixed; */
-  /* right: 1rem; */
-  /* bottom: 5rem;
-  font-weight: 300;
-  font-size: 3rem;
-  background-color: red;
-  padding: 2rem; */
-}
 @media screen and (max-width: 480px) {
   .header-socials {
     display: none;
   }
 }
+
 @media screen and (max-width: 760px) {
-  /* .header-socials, */
   .header-socials::after,
   .scroll-down {
     display: none;
@@ -84,33 +83,12 @@ img {
   .header-details {
     margin: 0 auto;
   }
-  /* .header-img {
-        margin: 3rem 2.5rem 0 1rem;   
-    } */
 }
 
 @media screen and (min-width: 761px) and (max-width: 960px) {
   .header-img {
     display: none;
   }
-
-  /* .header-socials {
-    position: absolute;
-    top: 4rem;
-    left: -35rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  } */
-
-  /* .header-socials::after {
-    content: "";
-    width: 2px;
-    height: 1.5rem;
-    background: var(--color-primary);
-  } */
 
   .scroll-down {
     position: absolute;
@@ -127,64 +105,10 @@ img {
   .header-img {
     display: none;
   }
-
-  /* .header-socials {
-    position: absolute;
-    bottom: 30rem;
-    left: -50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .header-socials::after {
-    content: "";
-    width: 2px;
-    height: 1.5rem;
-    background: var(--color-primary);
-  } */
-
-  .scroll-down {
-    position: absolute;
-    right: 3rem;
-    bottom: 35rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-    letter-spacing: 1.5px;
-  }
 }
 
 @media screen and (min-width: 1201px) {
   .header-img {
     display: none;
-  }
-  /* .header-socials {
-    position: absolute;
-    top: 4rem;
-    left: -70rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-  .header-socials::after {
-    content: "";
-    width: 2px;
-    height: 1.5rem;
-    background: var(--color-primary);
-  } */
-
-  .scroll-down {
-    position: absolute;
-    right: 6rem;
-    bottom: 35rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-    letter-spacing: 1.5px;
   }
 }

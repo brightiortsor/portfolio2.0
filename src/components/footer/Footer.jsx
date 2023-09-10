@@ -20,7 +20,7 @@ const Footer = () => {
         href="#"
         className="footer-logo"
       >
-        <RxCode className="code-logo" />i<span className="my-logo">B</span>i
+        <RxCode className="code-logo" />i <span className="my-logo">B</span> i
       </a>
       <ul data-aos="fade-up" data-aos-duration="2500" className="links">
         <li>
@@ -48,7 +48,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <BsLinkedin size={25} />
+          <BsLinkedin size={30} />
         </a>
         <a
           data-aos="fade-up"
@@ -57,7 +57,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillGithub size={25} />
+          <AiFillGithub size={40} />
         </a>
         <a
           data-aos="fade-up"
@@ -66,7 +66,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillTwitterCircle size={25} />
+          <AiFillTwitterCircle size={40} />
         </a>
       </div>
 

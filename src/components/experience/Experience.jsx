@@ -73,7 +73,7 @@ const Experience = () => {
             <SiRedux size={25} style={{ color: "#38b871" }} className="last" />
 
             <div className="verified-icon">
-              <small className="text-light">Redux</small>
+              <small className="text-light">Redux / RTK</small>
               <BsPatchCheckFill className="icon" />
             </div>
           </article>
