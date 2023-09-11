@@ -95,16 +95,17 @@ function App() {
             bottom: "6rem",
             right: "0.5rem",
             zIndex: "1000",
-            fontSize: "2rem",
-            backgroundColor: "rgba(0,0,0,0.5)",
+            fontSize: "1.5rem",
+            backgroundColor: "#fff",
             borderRadius: "50%",
-            padding: "0.3rem 0.8rem",
+            padding: "0.3rem 0.5rem",
             cursor: "pointer",
           }}
+          className="scroll-btn"
         >
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" onClick={scrollToTop}>
-            <BsArrowUp />
+            <BsArrowUp className="arrow" />
           </a>
         </div>
       )}

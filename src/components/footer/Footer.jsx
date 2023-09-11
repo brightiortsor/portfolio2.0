@@ -44,8 +44,6 @@ const Footer = () => {
           <BsLinkedin size={30} />
         </a>
         <a
-          data-aos="fade-up"
-          data-aos-duration="3500"
           href="https://github.com/brightiortsor"
           target="_blank"
           rel="noreferrer"

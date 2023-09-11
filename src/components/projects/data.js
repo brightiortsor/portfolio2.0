@@ -35,14 +35,14 @@ export const data = [
   },
   {
     id: 5,
-    title: "Network Carrier Checker",
+    title: "PHONIE: Network Carrier Checker",
     img: Phonie,
     demo: "https://super-circle-phoenie.super-circle.repl.co",
   },
 
   {
     id: 6,
-    title: "Github User Finder",
+    title: "GITFIND: Github User Finder",
     img: Github,
     demo: "https://githubpersonfinder.netlify.app",
   },
@@ -61,7 +61,7 @@ export const data = [
   },
   {
     id: 9,
-    title: "Holiday Destinations Planner",
+    title: "POINT-X: Holiday Destinations Planner",
     img: Travel,
     demo: "https://travel-app-lake.vercel.app",
   },

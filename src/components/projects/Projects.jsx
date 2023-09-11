@@ -31,32 +31,18 @@ const Projects = () => {
       <div className="desktop-projects">
         <div
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="container portfolio-container"
         >
           {visibleProjects.map(({ id, img, title, demo }) => {
             return (
-              <article
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                key={id}
-                className="portfolio-item"
-              >
+              <article key={id} className="portfolio-item">
                 <div className="portfolio-item__img">
-                  <img
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                    src={img}
-                    alt={title}
-                  />
+                  <img src={img} alt={title} />
                 </div>
-                <h4 data-aos="fade-right" data-aos-duration="3000">
-                  {title}
-                </h4>
+                <h4>{title}</h4>
                 <div className="portfolio-cta">
                   <a
-                    data-aos="fade-right"
-                    data-aos-duration="4000"
                     href={demo}
                     className="btn btn-demo"
                     target="_blank"

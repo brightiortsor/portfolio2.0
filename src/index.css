@@ -120,6 +120,14 @@ img {
   object-fit: cover;
 }
 
+.scroll-btn:hover {
+  transform: scale(1.1);
+  transition: var(--transition);
+}
+
+.arrow {
+  color: var(--color-primary);
+}
 /* MediaQueries for md*/
 @media screen and (max-width: 1024px) {
   .container {
