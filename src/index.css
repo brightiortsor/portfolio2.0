@@ -130,7 +130,12 @@ img {
     margin-top: 3rem;
   }
 }
-
+.slick-thumb {
+  color: red !important;
+}
+.slick-dots {
+  color: red !important;
+}
 /* MediaQueries for sm*/
 @media screen and (max-width: 600px) {
   .container {

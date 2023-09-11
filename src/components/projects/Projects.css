@@ -26,6 +26,10 @@
   margin-bottom: 1rem;
 }
 
+.btn-demo {
+  width: 100%;
+  text-align: center;
+}
 .portfolio-item:hover {
   border: 1px solid var(--color-primary-light);
   background: transparent;
@@ -86,6 +90,14 @@
   border: 2px solid var(--color-primary-light);
 }
 
+.mobile-projects {
+  display: none;
+}
+
+.desktop-projects {
+  display: block;
+}
+
 @media screen and (max-width: 1024px) {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
@@ -97,6 +109,16 @@
   .portfolio-container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  .desktop-projects {
+    display: none;
+  }
+  .mobile-projects {
+    display: block;
+  }
+  .slider {
+    width: 85%;
+    margin: 0 auto;
   }
 }
 
