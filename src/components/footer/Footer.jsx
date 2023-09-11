@@ -13,16 +13,11 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer data-aos="fade-up" data-aos-duration="2000">
-      <a
-        data-aos="fade-up"
-        data-aos-duration="2000"
-        href="#"
-        className="footer-logo"
-      >
+    <footer data-aos="fade-up" data-aos-duration="1000">
+      <a href="#" className="footer-logo">
         <RxCode className="code-logo" />i <span className="my-logo">B</span> i
       </a>
-      <ul data-aos="fade-up" data-aos-duration="2500" className="links">
+      <ul className="links">
         <li>
           <a href="#">Home</a>
         </li>
@@ -42,8 +37,6 @@ const Footer = () => {
 
       <div className="footer-socials">
         <a
-          data-aos="fade-up"
-          data-aos-duration="3000"
           href="https://linkedin.com/in/brightiortsor"
           target="_blank"
           rel="noreferrer"
@@ -60,8 +53,6 @@ const Footer = () => {
           <AiFillGithub size={40} />
         </a>
         <a
-          data-aos="fade-up"
-          data-aos-duration="4000"
           href="https://twitter.com/thefineuncle"
           target="_blank"
           rel="noreferrer"
@@ -71,9 +62,7 @@ const Footer = () => {
       </div>
 
       <div className="copyright">
-        <small data-aos="fade-up" data-aos-duration="4000">
-          &copy; 2022. All rights reserved.
-        </small>
+        <small>&copy; 2022. All rights reserved.</small>
       </div>
     </footer>
   );
