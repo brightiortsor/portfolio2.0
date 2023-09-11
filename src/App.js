@@ -52,7 +52,7 @@ function App() {
     });
   };
   return loading ? (
-    <div className="loading" style={{ backgroundColor: "black" }}>
+    <div className="loading" style={{ backgroundColor: "#1f1f38" }}>
       <div className="lds-roller">
         <div></div>
         <div></div>
@@ -102,6 +102,7 @@ function App() {
             cursor: "pointer",
           }}
         >
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" onClick={scrollToTop}>
             <BsArrowUp />
           </a>
