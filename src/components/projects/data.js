@@ -9,30 +9,31 @@ import dcfoods from "../../assets/dcfoods.png";
 import tantaa from "../../assets/tantaa.png";
 
 export const data = [
+ 
   {
     id: 1,
-    title: "DCFOOD: Foodstuff Ecommerce Website",
-    img: dcfoods,
-    demo: "https://dcfoodbank.com",
-  },
-  {
-    id: 2,
     title: "CLIQUE: School Learning Management System",
     img: cliqueng,
     demo: "https://clique.ng",
   },
   {
-    id: 3,
+    id: 2,
     title: "TANTA: Software Development Company",
     img: tantaa,
     demo: "https://tantainnovatives.com",
   },
-  {
-    id: 4,
-    title: "BURTECH: An Indigenous Manufacturing Company",
-    img: burtech,
-    demo: "https://www.burtechindustries.com",
+   {
+    id: 3,
+    title: "DCFOOD: Foodstuff Ecommerce Website",
+    img: dcfoods,
+    demo: "https://dcfoodbank.com",
   },
+  // {
+  //   id: 4,
+  //   title: "BURTECH: An Indigenous Manufacturing Company",
+  //   img: burtech,
+  //   demo: "https://www.burtechindustries.com",
+  // },
   {
     id: 5,
     title: "PHONIE: Network Carrier Checker",
