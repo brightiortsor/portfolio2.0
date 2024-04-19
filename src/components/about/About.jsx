@@ -41,11 +41,10 @@ const About = () => {
               <FaAward className="about-icon" />
               <h5>Experience</h5>
               <small>
-                Over{" "}
                 <span style={{ fontSize: "1.2rem", padding: "0 0.2rem" }}>
-                  1.5+
+                  2+
                 </span>{" "}
-                Working Years
+                 Years
               </small>
             </article>
             <article
